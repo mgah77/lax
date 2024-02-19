@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="lax_action_report_project_xlsx" model="ir.actions.report">
+        <field name="name">Xlsx Report</field>
+        <field name="model">project.project</field>
+        <field name="report_type">xlsx</field>
+        <field name="report_name">lax_project_xlsx.report_project_xlsx</field>
+        <field name="report_file">lax_project_xlsx.report_project_xlsx</field>
+        <field name="print_report_name">'Project'</field>
+        <field name="binding_model_id" ref="project.model_project_project"/>
+        <field name="binding_type">report</field>
+    </record>
+
+</odoo>
